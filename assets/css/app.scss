@@ -1,0 +1,15 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+
+}
+.main-txt{
+  grid-column-start:  2;
+  grid-column-end: 4;
+
+}
+
+.main-img{
+  grid-column: 4 / 11;
+
+}
